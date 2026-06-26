@@ -1,3 +1,4 @@
+import { icons } from "lucide-react";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 
@@ -9,6 +10,7 @@ export const metadata = {
   verification: {
     google: "hTtr680TXN4etQYTdmHxUGAuf6JO0wfLyt93-pYLlh0",
   },
+  
   keywords: [
     "Tsuzuku",
     "habit tracker",
@@ -46,9 +48,9 @@ export const metadata = {
     siteName: "Tsuzuku",
     images: [
       {
-        url: "/images/screenshots/01-home.jpg",
+        url: "/images/screenshots/og-image.png",
         width: 1080,
-        height: 2340,
+        height: 1920,
         alt: "Tsuzuku Home Dashboard",
       },
     ],
@@ -60,7 +62,7 @@ export const metadata = {
     title: "Tsuzuku - Private habit tracker and focus companion",
     description:
       "Tsuzuku is a private, offline-first Android habit tracker, focus timer, minimal launcher, and insights app.",
-    images: ["/images/screenshots/01-home.jpg"],
+    images: ["/images/screenshots/og-image.png"],
     creator: "@agupta07505",
   },
 };
