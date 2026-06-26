@@ -1,10 +1,14 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "Tsuzuku - Private habit tracker and focus companion",
   description:
     "Tsuzuku is a private, offline-first Android habit tracker, focus timer, minimal launcher, and insights app.",
   metadataBase: new URL("https://tsuzuku-web.vercel.app"),
+  verification: {
+    google: "hTtr680TXN4etQYTdmHxUGAuf6JO0wfLyt93-pYLlh0",
+  },
   keywords: [
     "Tsuzuku",
     "habit tracker",
