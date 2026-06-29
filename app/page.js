@@ -81,8 +81,8 @@ const screenshots = [
 const roadmap = [
   ["Tsuzuku Habits", "Done", "Core habit creation, check-ins, streak tracking, reminders, insights, and backup."],
   ["Tsuzuku Focus", "Done", "Timed sessions, discipline tracking, focus history, and distraction controls."],
-  ["Tsuzuku Launcher", "In progress", "A minimal Android launcher for essential apps and lower-distraction phone use."],
-  ["Tsuzuku Widgets", "Planned", "Home and launcher widgets for habits, streaks, focus sessions, quotes, and quick check-ins."],
+  ["Tsuzuku Launcher", "Done", "A minimal Android launcher for essential apps and lower-distraction phone use."],
+  ["Tsuzuku Widgets", "In progress", "Home and launcher widgets for habits, streaks, focus sessions, quotes, and quick check-ins."],
   ["Tsuzuku AI Integration", "Planned", "Optional habit ideas, reflection prompts, summaries, and productivity guidance with privacy-first defaults."],
 ];
 
